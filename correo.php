@@ -18,6 +18,7 @@ $carta .= "Mensaje : ".$mensaje;
 
 //Enviar mensaje
 mail($destinatario, $asunto, $carta);
+sleep(2);
 header("Location:index.php");
 
 ?>

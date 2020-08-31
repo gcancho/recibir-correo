@@ -10,5 +10,12 @@ input, textarea{
 
 textarea{
     height: 80px;
+}
 
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #B06ab3;
+    padding-top: 20px;
 }
